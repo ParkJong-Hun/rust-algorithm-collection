@@ -1,0 +1,27 @@
+# Cargo is rust official package manager.
+# cargo new: create a new project.
+# cargo build: build project.
+# cargo run: build & run. (--release : release option(faster and non-debugging))
+# cargo test: test.
+# cargo add: add a dependency.
+
+[package]
+name = "algorithm_collection"
+version = "0.0.1"
+edition = "2024"
+authors = ["PJH <thesn515@gmail.com>"]
+desciption = "just rust algorithm collection for training"
+repository = "https://github.com/ParkJong-Hun/rust-algorithm-collection"
+
+# [dependencies]
+
+
+# [dev-dependencies]
+
+[[bin]]
+name = "algorithm_collection"
+path = "src/main.rs"
+
+# [lib]
+
+# [features]
