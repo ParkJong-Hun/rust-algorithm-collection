@@ -4,6 +4,7 @@
 # cargo run: build & run. (--release : release option(faster and non-debugging))
 # cargo test: test.
 # cargo add: add a dependency.
+# cargo doc: create a documented source code. (--open : create and open the document file.)
 
 [package]
 name = "algorithm_collection"
