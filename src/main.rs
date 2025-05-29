@@ -1,3 +1,6 @@
+// Apply to entire file.
+// [FYI] 'warnings' is the wild card.
+#![allow(unused_imports)]
 mod project_euler;
 use project_euler::problem_1::problem_1_1;
 use project_euler::problem_1::problem_1_2;

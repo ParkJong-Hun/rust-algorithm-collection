@@ -5,6 +5,7 @@
 //! 1000보다 작은 자연수 중에서 3 또는 5의 배수를 모두 더하면 얼마일까요? 
 
 // pub = public
+#[allow(dead_code)]
 pub fn problem_1_1() -> u32 {
     let max: u16 = 1000;
     // variables must be initialized before
@@ -21,6 +22,7 @@ pub fn problem_1_1() -> u32 {
 }
 
 /// Using the principles of arithmetic progression and inclusion/exclusion.
+#[allow(dead_code)]
 pub fn problem_1_2() -> u32 {
     let max: u16 = 1000;
     // inclusion-exlusion principle.
@@ -34,6 +36,7 @@ pub fn problem_1_2() -> u32 {
 
 /// arithmetic series
 /// Sn = n(a1+an)/2 = n[2a1+(n−1)d] / 2
+#[allow(dead_code)]
 fn sum_of_multiples(factor: u32, max: u32) -> u32 {
     let n = (max - 1) / factor;
     factor * n * (n + 1) / 2
