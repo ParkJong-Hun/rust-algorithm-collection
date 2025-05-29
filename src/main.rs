@@ -1,6 +1,8 @@
 mod project_euler;
 use project_euler::problem_1::problem_1_1;
 use project_euler::problem_1::problem_1_2;
+use project_euler::problem_2::problem_2_1;
+use project_euler::problem_2::problem_2_2;
 
 // compile command is like `rustc foo.rs`
 // run command is like `./foo`
@@ -11,6 +13,9 @@ fn main() {
 
     // {:?} : debug print
     
-    println!("problem 1 answer: {}", problem_1_1());
-    println!("problem 1 answer: {}", problem_1_2());
+    // println!("problem 1 answer: {}", problem_1_1());
+    // println!("problem 1 answer: {}", problem_1_2());
+
+    println!("problem 2 answer: {}", problem_2_1());
+    println!("problem 2 answer: {}", problem_2_2());
 }
