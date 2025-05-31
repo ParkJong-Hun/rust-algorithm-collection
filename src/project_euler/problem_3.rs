@@ -5,6 +5,7 @@
 //! 예를 들면 13195의 소인수는 5, 7, 13, 29 입니다.
 //! 600851475143의 소인수 중에서 가장 큰 수를 구하세요.
 
+#[allow(dead_code)]
 pub fn problem_3() -> u64 {
     let mut max: u64 = 600851475143;
     let mut largest_factor: u64 = 1;
